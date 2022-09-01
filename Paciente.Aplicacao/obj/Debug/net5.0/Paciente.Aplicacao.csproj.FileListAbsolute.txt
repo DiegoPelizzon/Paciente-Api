@@ -1,0 +1,17 @@
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Aplicacao.deps.json
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Aplicacao.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\ref\Paciente.Aplicacao.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Aplicacao.pdb
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Dominio.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Infra.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Dominio.pdb
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\bin\Debug\net5.0\Paciente.Infra.pdb
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.AssemblyInfo.cs
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.csproj.CopyComplete
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\ref\Paciente.Aplicacao.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Aplicacao\obj\Debug\net5.0\Paciente.Aplicacao.pdb

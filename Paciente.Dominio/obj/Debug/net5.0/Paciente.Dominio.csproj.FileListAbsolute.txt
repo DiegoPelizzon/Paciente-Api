@@ -1,0 +1,12 @@
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\bin\Debug\net5.0\Paciente.Dominio.deps.json
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\bin\Debug\net5.0\Paciente.Dominio.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\bin\Debug\net5.0\ref\Paciente.Dominio.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\bin\Debug\net5.0\Paciente.Dominio.pdb
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.AssemblyInfoInputs.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.AssemblyInfo.cs
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\ref\Paciente.Dominio.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Dominio\obj\Debug\net5.0\Paciente.Dominio.pdb

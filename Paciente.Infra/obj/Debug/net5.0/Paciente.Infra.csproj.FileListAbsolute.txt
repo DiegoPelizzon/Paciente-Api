@@ -1,0 +1,15 @@
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\bin\Debug\net5.0\Paciente.Infra.deps.json
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\bin\Debug\net5.0\Paciente.Infra.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\bin\Debug\net5.0\ref\Paciente.Infra.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\bin\Debug\net5.0\Paciente.Infra.pdb
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\bin\Debug\net5.0\Paciente.Dominio.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\bin\Debug\net5.0\Paciente.Dominio.pdb
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.AssemblyInfoInputs.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.AssemblyInfo.cs
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.csproj.CopyComplete
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\ref\Paciente.Infra.dll
+C:\Users\Diego\Desktop\apex-logica\C#\Paciente\Paciente.Infra\obj\Debug\net5.0\Paciente.Infra.pdb
