@@ -21,70 +21,63 @@ namespace Paciente.Aplicacao.Aplicacao
 
         public void AdicionarPaciente(PacienteDto dto)
         {
-            if (dto.datanascimentoPaciente <= DateTime.Now)
-            {
-
-                if ((_repositorioPaciente.VerificacaoCpf(dto.cpfPaciente)) == false)
-                {
-
-                    var entidade = new PacienteEntidade();
-
-                    entidade.codigo = dto.codigoPaciente;
-                    entidade.nome = dto.nomePaciente;
-                    entidade.sexo = dto.sexoPaciente;
-                    entidade.datanascimento = dto.datanascimentoPaciente;
-                    entidade.cpf = dto.cpfPaciente;
-                    entidade.cep = dto.cepPaciente;
-                    entidade.situacao = dto.situacaoPaciente;
-
-                    _repositorioPaciente.Criar(entidade);
-                    _repositorioPaciente.SalvarOk();
-
-                }
-                else if ((_repositorioPaciente.VerificacaoCpf(dto.cpfPaciente)) == true)
-                {
-                    throw new Exception("Já existe um paciente com esse CPF cadastrado");
-                }
-            }
-            else if (dto.datanascimentoPaciente > DateTime.Now)
+            if (dto.datanascimentoPaciente >= DateTime.Now)
             {
                 throw new Exception("data de nascimento não pode ser superior a data atual");
             }
+            else if ((_repositorioPaciente.VerificacaoDocumentoCpf(dto.cpfPaciente)) == true)
+            {
+                throw new Exception("Já existe um paciente com esse CPF cadastrado");
+            }
+            else
+            {
+                var entidade = new PacienteEntidade();
+
+                entidade.codigo = dto.codigoPaciente;
+                entidade.nome = dto.nomePaciente;
+                entidade.sexo = dto.sexoPaciente;
+                entidade.datanascimento = dto.datanascimentoPaciente;
+                entidade.cpf = dto.cpfPaciente;
+                entidade.cep = dto.cepPaciente;
+                entidade.situacao = dto.situacaoPaciente;
+
+                _repositorioPaciente.Criar(entidade);
+                _repositorioPaciente.SalvarOk();
+
+            }
+
 
         }
 
-        public void AtualizarPaciente(int id, string codigo, string nome, string sexo, DateTime datanascimento, string cpf, string cep)
+        public void AtualizarPaciente(PacienteDto dto)
         {
-            if (datanascimento <= DateTime.Now)
-            {
-
-                if ((_repositorioPaciente.VerificacaoCpf(cpf)) == false)
-                {
-                    PacienteEntidade entidade = _repositorioPaciente.BuscarporId(id);
-                    entidade.codigo = codigo;
-                    entidade.nome = nome;
-                    entidade.sexo = sexo;
-                    entidade.datanascimento = datanascimento;
-                    entidade.cpf = cpf;
-                    entidade.cep = cep;
-
-                    _repositorioPaciente.Atualizar(entidade);
-                    _repositorioPaciente.SalvarOk();
-                }
-                else if ((_repositorioPaciente.VerificacaoCpf(cpf)) == true)
-                {
-                    throw new Exception("Já existe um paciente com esse CPF cadastrado");
-                }
-            }
-            else if (datanascimento > DateTime.Now)
+            if (dto.datanascimentoPaciente >= DateTime.Now)
             {
                 throw new Exception("data de nascimento não pode ser superior a data atual");
             }
+            else if ((_repositorioPaciente.VerificacaoDocumentoCpf(dto.cpfPaciente)) == true)
+            {
+                throw new Exception("Já existe um paciente com esse CPF cadastrado");
+            }
+            else
+            {
+                PacienteEntidade entidade = _repositorioPaciente.BuscarporId(dto.idPaciente);
+                entidade.codigo = dto.codigoPaciente;
+                entidade.nome = dto.nomePaciente;
+                entidade.sexo = dto.sexoPaciente;
+                entidade.datanascimento = dto.datanascimentoPaciente;
+                entidade.cpf = dto.cpfPaciente;
+                entidade.cep = dto.cepPaciente;
+
+                _repositorioPaciente.Atualizar(entidade);
+                _repositorioPaciente.SalvarOk();
+            }
+               
         }
 
         public List<PacienteEntidade> ListarPaciente()
         {
-            return _repositorioPaciente.ObterTodos(); 
+            return _repositorioPaciente.ObterTodos();
         }
 
         public PacienteEntidade ListarPacienteporId(int id)
@@ -95,7 +88,7 @@ namespace Paciente.Aplicacao.Aplicacao
             }
             else
             {
-                throw new Exception("Desculpa mas esse Id não existe");
+                throw new Exception("Desculpa mas esse Paciente não existe");
             }
         }
 
@@ -116,7 +109,8 @@ namespace Paciente.Aplicacao.Aplicacao
 
         public List<PacienteEntidade> ListarPacienteporNascimento(DateTime nascimento)
         {
-            if ((_repositorioPaciente.verificarnascimento(nascimento))==true) {
+            if ((_repositorioPaciente.VerificarNascimento(nascimento)) == true)
+            {
                 return _repositorioPaciente.BuscarPorNascimento(nascimento);
             }
             else

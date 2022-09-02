@@ -36,7 +36,7 @@ namespace Paciente.Infra.Repositorio
             return DbSet.Where(entidade => entidade.datanascimento == data).ToList();
         }
 
-        public bool VerificacaoCpf(string cpf)
+        public bool VerificacaoDocumentoCpf(string cpf)
         {
             return DbSet.Any(entidade => entidade.cpf == cpf);
         }
@@ -44,9 +44,9 @@ namespace Paciente.Infra.Repositorio
         {
             return DbSet.Any(entidade => entidade.id == id);
         }
-        public bool verificarnascimento(DateTime nascimento)
+        public bool VerificarNascimento(DateTime nascimento)
         {
-            return DbSet.Any(entidade => entidade.datanascimento == nascimento);
+            return DbSet.Any(entidade => entidade.datanascimento.Date == nascimento);
         }
     }
 }

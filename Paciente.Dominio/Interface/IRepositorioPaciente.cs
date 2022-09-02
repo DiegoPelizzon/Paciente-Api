@@ -18,10 +18,11 @@ namespace Paciente.Dominio.IRepositorio
 
         public List<PacienteEntidade> BuscarPorNascimento(DateTime data);
 
-        public bool VerificacaoCpf(string cpf);
+        public bool VerificacaoDocumentoCpf(string cpf);
 
         public bool VerificarId(int id);
-        public bool verificarnascimento(DateTime nascimento);
+
+        public bool VerificarNascimento(DateTime nascimento);
 
     }
 }

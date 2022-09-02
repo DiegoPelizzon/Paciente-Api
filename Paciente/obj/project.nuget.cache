@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ulk4kGXwyVOuPBEf4yg7q2t+0+/FgojePYyVX6a+dHSYGosVcXsOfjy9QwcWLUncUik/f8dN8yR6+rm3QVW3lw==",
+  "dgSpecHash": "Da3mmRbgyOy+3bUYHWLDMD3b9/33oe8i/ze9DUCYr46RYGUFDdn4w1p++VS6BnUreb/b//fUcKeZHKDRbeSC3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\Paciente.csproj",
+  "projectFilePath": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\Paciente.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

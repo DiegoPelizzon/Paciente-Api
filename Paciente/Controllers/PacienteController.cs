@@ -27,6 +27,11 @@ namespace Paciente.Controllers
         {
             try
             {
+                if (ModelState.IsValid == false)
+                {
+                    return BadRequest(ModelState);
+                }
+
                 _pacienteAplicacao.AdicionarPaciente(dto);
                 return Ok("Paciente Cadastrado");
             }
@@ -38,11 +43,11 @@ namespace Paciente.Controllers
 
         [HttpPut]
         [Route("Alterar")]
-        public IActionResult Alterar(int id, string codigo, string nome, string sexo, DateTime datanascimento, string cpf, string cep)
+        public IActionResult Alterar(PacienteDto dto)
         {
             try
             {
-                _pacienteAplicacao.AtualizarPaciente(id, codigo, nome, sexo, datanascimento, cpf, cep);
+                _pacienteAplicacao.AtualizarPaciente(dto);
                 return Ok("Paciente alterado com sucesso");
 
             }
@@ -68,7 +73,7 @@ namespace Paciente.Controllers
         }
 
         [HttpGet]
-        [Route("buscarporcodigo/{codigo}")]
+        [Route("BuscarPorCodigo/{codigo}")]
         public IActionResult FiltrarporCodigo(string codigo)
         {
             try
@@ -82,7 +87,7 @@ namespace Paciente.Controllers
         }
 
         [HttpGet]
-        [Route("buscarpornascimento/{nascimento}")]
+        [Route("BuscarPorNascimento/{nascimento}")]
         public IActionResult ListarNascimento(DateTime nascimento)
         {
             try
@@ -97,7 +102,7 @@ namespace Paciente.Controllers
         }
 
         [HttpGet]
-        [Route("buscarinativos")]
+        [Route("BuscarInativos")]
         public IActionResult BuscarInativos()
         {
             try
@@ -112,7 +117,7 @@ namespace Paciente.Controllers
         }
 
         [HttpDelete]
-        [Route("deletar/{id}")]
+        [Route("Deletar/{id}")]
         public IActionResult Excluir(int id)
         {
             try

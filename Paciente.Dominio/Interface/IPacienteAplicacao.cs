@@ -13,7 +13,7 @@ namespace Paciente.Dominio.IRepositorio
 
         public void AdicionarPaciente(PacienteDto dto);
 
-        public void AtualizarPaciente(int id, string codigo, string nome, string sexo, DateTime datanascimento, string cpf, string cep);
+        public void AtualizarPaciente(PacienteDto dto);
 
         public List<PacienteEntidade> ListarPaciente();
 

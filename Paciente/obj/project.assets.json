@@ -5943,9 +5943,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\Paciente.csproj",
-      "projectName": "Paciente",
-      "projectPath": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\Paciente.csproj",
+      "projectUniqueName": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\Paciente.Api.csproj",
+      "projectName": "Paciente.Api",
+      "projectPath": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\Paciente.Api.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Diego\\Desktop\\apex-logica\\C#\\Paciente\\Paciente\\obj\\",
       "projectStyle": "PackageReference",

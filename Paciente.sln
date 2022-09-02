@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paciente", "Paciente\Paciente.csproj", "{93104A0D-7CB3-4533-BEEB-00D3FF9E354C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paciente.Api", "Paciente\Paciente.Api.csproj", "{93104A0D-7CB3-4533-BEEB-00D3FF9E354C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paciente.Aplicacao", "Paciente.Aplicacao\Paciente.Aplicacao.csproj", "{AA8EA0D6-09A0-46AB-A015-D1D2CB39676F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paciente.Aplicacao", "Paciente.Aplicacao\Paciente.Aplicacao.csproj", "{AA8EA0D6-09A0-46AB-A015-D1D2CB39676F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paciente.Dominio", "Paciente.Dominio\Paciente.Dominio.csproj", "{E7C944D5-0D4E-4927-AC85-CACE6CA50DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paciente.Dominio", "Paciente.Dominio\Paciente.Dominio.csproj", "{E7C944D5-0D4E-4927-AC85-CACE6CA50DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paciente.Infra", "Paciente.Infra\Paciente.Infra.csproj", "{BC2BFB3E-C0CC-477A-9F24-234FEDCEE54A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paciente.Infra", "Paciente.Infra\Paciente.Infra.csproj", "{BC2BFB3E-C0CC-477A-9F24-234FEDCEE54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
