@@ -43,11 +43,11 @@ namespace Paciente.Controllers
 
         [HttpPut]
         [Route("Alterar")]
-        public IActionResult Alterar(PacienteDto dto)
+        public IActionResult Alterar(int id,PacienteDto dto)
         {
             try
             {
-                _pacienteAplicacao.AtualizarPaciente(dto);
+                _pacienteAplicacao.AtualizarPaciente(dto,id);
                 return Ok("Paciente alterado com sucesso");
 
             }

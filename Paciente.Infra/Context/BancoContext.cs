@@ -14,7 +14,6 @@ namespace Paciente.Infra.Context
         {
 
         }
-
         public DbSet<PacienteEntidade> pacientecontext { get; set; }
     }
 }

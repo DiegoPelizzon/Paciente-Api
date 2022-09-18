@@ -49,7 +49,7 @@ namespace Paciente.Aplicacao.Aplicacao
 
         }
 
-        public void AtualizarPaciente(PacienteDto dto)
+        public void AtualizarPaciente(PacienteDto dto,int id)
         {
             if (dto.datanascimentoPaciente >= DateTime.Now)
             {
@@ -61,7 +61,7 @@ namespace Paciente.Aplicacao.Aplicacao
             }
             else
             {
-                PacienteEntidade entidade = _repositorioPaciente.BuscarporId(dto.idPaciente);
+                PacienteEntidade entidade = _repositorioPaciente.BuscarporId(id);
                 entidade.codigo = dto.codigoPaciente;
                 entidade.nome = dto.nomePaciente;
                 entidade.sexo = dto.sexoPaciente;

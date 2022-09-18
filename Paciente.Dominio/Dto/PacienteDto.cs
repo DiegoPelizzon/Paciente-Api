@@ -9,7 +9,7 @@ namespace Paciente.Dominio.Dto
 {
     public class PacienteDto
     {
-        public int idPaciente { get; set; }
+        //public int idPaciente { get; set; }
         public string codigoPaciente { get; set; }
 
         [StringLength(40, ErrorMessage ="Nome não pode ter mais que 40 caracteres")]
