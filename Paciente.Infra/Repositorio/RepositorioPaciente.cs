@@ -48,5 +48,9 @@ namespace Paciente.Infra.Repositorio
         {
             return DbSet.Any(entidade => entidade.datanascimento.Date == nascimento);
         }
+        public bool VerificarContato(string contato)
+        {
+            return DbSet.Any(entidade => entidade.contato == contato);
+        }
     }
 }

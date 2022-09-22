@@ -18,7 +18,7 @@ namespace Paciente.Dominio.Dto
 
         [Required(ErrorMessage ="O campo não pode ficar em branco")]
         [Phone (ErrorMessage ="numero de telefone invalido")]
-        public string contato { get; set; }
+        public string contatoPaciente { get; set; }
         public DateTime datanascimentoPaciente { get; set; }
 
         [Required(ErrorMessage = "O campo não pode ficar em branco")]

@@ -24,5 +24,8 @@ namespace Paciente.Dominio.IRepositorio
 
         public bool VerificarNascimento(DateTime nascimento);
 
+        public bool VerificarContato(string contato);
+
+
     }
 }

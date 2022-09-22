@@ -29,6 +29,10 @@ namespace Paciente.Aplicacao.Aplicacao
             {
                 throw new Exception("Já existe um paciente com esse CPF cadastrado");
             }
+            else if ((_repositorioPaciente.VerificarContato(dto.contatoPaciente)) == true)
+            {
+                throw new Exception("Já existe um paciente com esse numero cadastrado");
+            }
             else
             {
                 var entidade = new PacienteEntidade();
