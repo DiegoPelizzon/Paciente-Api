@@ -38,6 +38,7 @@ namespace Paciente.Aplicacao.Aplicacao
                 entidade.sexo = dto.sexoPaciente;
                 entidade.datanascimento = dto.datanascimentoPaciente;
                 entidade.cpf = dto.cpfPaciente;
+                entidade.contato = dto.contato;
                 entidade.cep = dto.cepPaciente;
                 entidade.situacao = dto.situacaoPaciente;
 

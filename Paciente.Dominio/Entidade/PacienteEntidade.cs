@@ -18,6 +18,7 @@ namespace Paciente.Dominio.Entidade
         public string sexo { get; set; }
         public DateTime datanascimento { get; set; }
         public string cpf { get; set; }
+        public string contato { get; set; }
         public string cep { get; set; }
         public bool situacao { get; set; }
     }
