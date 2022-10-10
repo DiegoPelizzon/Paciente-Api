@@ -42,7 +42,7 @@ namespace Paciente.Aplicacao.Aplicacao
                 entidade.sexo = dto.sexoPaciente;
                 entidade.datanascimento = dto.datanascimentoPaciente;
                 entidade.cpf = dto.cpfPaciente;
-                entidade.contato = dto.contato;
+                entidade.contato = dto.contatoPaciente;
                 entidade.cep = dto.cepPaciente;
                 entidade.situacao = dto.situacaoPaciente;
 
@@ -100,6 +100,8 @@ namespace Paciente.Aplicacao.Aplicacao
         public void DeletarPaciente(int id)
         {
             _repositorioPaciente.Deletar(id);
+
+            _repositorioPaciente.SalvarOk();
         }
 
         public List<PacienteEntidade> ListarPacienteporCodigo(string codigo)
